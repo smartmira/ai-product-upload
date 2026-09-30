@@ -1,0 +1,68 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+
+.env
+.env.*
+!.env.example
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Python tooling
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Uploaded/generated files
+
+uploads/
+outputs/
+temp/
+tmp/
+
+
+# Logs
+
+*.log
+
+# Local databases
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Large model/data files
+
+*.gguf
+*.bin
+*.safetensors
+
+# Excel/data files if they are local/private
+
+*.xlsx
+*.xls
+
+# ZIP archives
+
+*.zip
